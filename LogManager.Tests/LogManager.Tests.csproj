@@ -53,12 +53,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LogManager\LogManager.csproj">
-      <Project>{4C8C2CA4-3976-475F-BAF9-BF0E779B7827}</Project>
-      <Name>LogManager</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="TestLogs\error-2013-03-11152830Z-85987721-b5e2-43fe-a07d-b8a3db5ebf9b.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
