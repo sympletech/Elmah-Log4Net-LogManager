@@ -1,0 +1,108 @@
+﻿<div id="logDetailPopup" class="modal hide fade logDetail">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h3>Log Details</h3>
+    </div>
+    <div class="modal-body">
+        <div class="row-fluid">
+            <div class="span6">
+                <div class="entry">
+                    <label>Error Type</label>
+                    <span data-bind="html : ErrorType"></span>                    
+                </div>
+
+                <div class="entry">
+                    <label>Error Message</label>
+                    <span data-bind="html : ErrorMessage"></span>
+                </div>
+                
+                <div class="entry">
+                    <label>Url</label>
+                    <span data-bind="html : Url"></span>
+                </div>
+                
+                <div class="well occurances">
+                    <h3>Occurances</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>ErrorId</th>
+                                <th>Environment</th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach : LogEntries">
+                            <tr>
+                                <td data-bind="text : Time"></td>
+                                <td data-bind="text : ErrorId"></td>
+                                <td data-bind="text : EnvironmentName"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+            </div>
+            <div class="span6">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#Details" data-toggle="tab">Details</a></li>
+                    <li><a href="#ServerVariables" data-toggle="tab">Server Variables</a></li>
+                    <li><a href="#QueryStrings" data-toggle="tab">Query Strings</a></li>
+                    <li><a href="#Cookies" data-toggle="tab">Cookies</a></li>
+                </ul>
+                <div class="tab-content data-collections">
+                    
+                    @*-- ErrorDetail --*@
+                    <div class="tab-pane active" id="Details" data-bind="html : ErrorDetail"></div>
+                    
+                    @*-- ServerVariables --*@
+                    <div class="tab-pane" id="ServerVariables">
+                        <table class="table table-striped">
+                            <tbody data-bind="foreach : serverVariables">
+                                <tr>
+                                    <td>
+                                        <label data-bind = "html : key"></label>
+                                        <div data-bind="html : value"></div>                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    @*-- QueryStrings --*@
+                    <div class="tab-pane" id="QueryStrings">
+                        <table class="table table-striped">
+                            <tbody data-bind="foreach : queryStrings">
+                                <tr>
+                                    <td>
+                                        <label data-bind = "html : key"></label>
+                                        <div data-bind="html : value"></div>                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    @*-- Cookies --*@
+                    <div class="tab-pane" id="Cookies">
+                        <table class="table table-striped">
+                            <tbody data-bind="foreach : cookies">
+                                <tr>
+                                    <td>
+                                        <label data-bind = "html : key"></label>
+                                        <div data-bind="html : value"></div>                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+        <button class="btn btn-primary" data-bind="click : clearLog">Clear Logs</button>        
+    </div>
+</div>

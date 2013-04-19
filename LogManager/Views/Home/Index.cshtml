@@ -1,0 +1,22 @@
+﻿@model LogManager.Models.HomeModel
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/viewModel.home.gridViewModel.js"></script>
+    <script type="text/javascript">
+        var vModel = new GridViewModel();
+        ko.applyBindings(vModel, $("#grid")[0]);
+        ko.applyBindings(vModel.DetailViewModel, $("#details")[0]);
+    </script>    
+}
+
+<div id="grid">
+    <div class="loadingOverlay" data-bind="visible: isProcessing">
+        <img src="~/Images/loader.gif"/>
+    </div>
+    @Html.Partial("LogGrid")
+</div>
+
+<div id="details">
+    @Html.Partial("DetailPopup")
+</div>

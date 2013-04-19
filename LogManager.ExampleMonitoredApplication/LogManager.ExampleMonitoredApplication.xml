@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogManager.ExampleMonitoredApplication</name>
+    </assembly>
+    <members>
+        <member name="F:LogManager.ExampleMonitoredApplication.SiteMaster.HeadContent">
+            <summary>
+            HeadContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication.SiteMaster.MainContent">
+            <summary>
+            MainContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication.Account.Register.RegisterUser">
+            <summary>
+            RegisterUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication.Account.Register.RegisterUserWizardStep">
+            <summary>
+            RegisterUserWizardStep control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication.Account.Login.RegisterHyperLink">
+            <summary>
+            RegisterHyperLink control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication.Account.Login.LoginUser">
+            <summary>
+            LoginUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication.Account.ChangePassword.ChangeUserPassword">
+            <summary>
+            ChangeUserPassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication._Default.Button1">
+            <summary>
+            Button1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:LogManager.ExampleMonitoredApplication._Default.Button2">
+            <summary>
+            Button2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>

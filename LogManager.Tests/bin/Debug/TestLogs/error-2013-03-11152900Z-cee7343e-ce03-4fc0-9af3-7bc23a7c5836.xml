@@ -1,0 +1,207 @@
+﻿<error errorId="cee7343e-ce03-4fc0-9af3-7bc23a7c5836" application="/" host="DS4514" type="System.Exception" message="This is an Unhandled Exception" source="LearnToReadLogs" detail="System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---&gt; System.Exception: This is an Unhandled Exception&#xD;&#xA;   at LearnToReadLogs.MessedUp.Page_Load(Object sender, EventArgs e) in C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LearnLog4Net\LearnToReadLogs\MessedUp.aspx.cs:line 14&#xD;&#xA;   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)&#xD;&#xA;   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)&#xD;&#xA;   at System.Web.UI.Control.OnLoad(EventArgs e)&#xD;&#xA;   at System.Web.UI.Control.LoadRecursive()&#xD;&#xA;   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)&#xD;&#xA;   at System.Web.UI.Page.HandleError(Exception e)&#xD;&#xA;   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)&#xD;&#xA;   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)&#xD;&#xA;   at System.Web.UI.Page.ProcessRequest()&#xD;&#xA;   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)&#xD;&#xA;   at System.Web.UI.Page.ProcessRequest(HttpContext context)&#xD;&#xA;   at ASP.messedup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b4508c67\22f77b8a\App_Web_itvhqolj.1.cs:line 0&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="FSCA\DLewis" time="2013-03-11T15:29:00.5616399Z" statusCode="500" webHostHtmlMessage="&lt;html&gt;&#xD;&#xA;    &lt;head&gt;&#xD;&#xA;        &lt;title&gt;This is an Unhandled Exception&lt;/title&gt;&#xD;&#xA;        &lt;style&gt;&#xD;&#xA;         body {font-family:&quot;Verdana&quot;;font-weight:normal;font-size: .7em;color:black;} &#xD;&#xA;         p {font-family:&quot;Verdana&quot;;font-weight:normal;color:black;margin-top: -5px}&#xD;&#xA;         b {font-family:&quot;Verdana&quot;;font-weight:bold;color:black;margin-top: -5px}&#xD;&#xA;         H1 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:18pt;color:red }&#xD;&#xA;         H2 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:14pt;color:maroon }&#xD;&#xA;         pre {font-family:&quot;Lucida Console&quot;;font-size: .9em}&#xD;&#xA;         .marker {font-weight: bold; color: black;text-decoration: none;}&#xD;&#xA;         .version {color: gray;}&#xD;&#xA;         .error {margin-bottom: 10px;}&#xD;&#xA;         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }&#xD;&#xA;        &lt;/style&gt;&#xD;&#xA;    &lt;/head&gt;&#xD;&#xA;&#xD;&#xA;    &lt;body bgcolor=&quot;white&quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;span&gt;&lt;H1&gt;Server Error in '/' Application.&lt;hr width=100% size=1 color=silver&gt;&lt;/H1&gt;&#xD;&#xA;&#xD;&#xA;            &lt;h2&gt; &lt;i&gt;This is an Unhandled Exception&lt;/i&gt; &lt;/h2&gt;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;            &lt;font face=&quot;Arial, Helvetica, Geneva, SunSans-Regular, sans-serif &quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Description: &lt;/b&gt;An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.&#xD;&#xA;&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Exception Details: &lt;/b&gt;System.Exception: This is an Unhandled Exception&lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt;Source Error:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;Line 12:         protected void Page_Load(object sender, EventArgs e)&#xD;&#xA;Line 13:         {&#xD;&#xA;&lt;font color=red&gt;Line 14:             throw new Exception(&amp;quot;This is an Unhandled Exception&amp;quot;);&#xD;&#xA;&lt;/font&gt;Line 15:         }&#xD;&#xA;Line 16:     }&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Source File: &lt;/b&gt; C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LearnLog4Net\LearnToReadLogs\MessedUp.aspx.cs&lt;b&gt; &amp;nbsp;&amp;nbsp; Line: &lt;/b&gt; 14&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt;Stack Trace:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;[Exception: This is an Unhandled Exception]&#xD;&#xA;   LearnToReadLogs.MessedUp.Page_Load(Object sender, EventArgs e) in C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LearnLog4Net\LearnToReadLogs\MessedUp.aspx.cs:14&#xD;&#xA;   System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e) +14&#xD;&#xA;   System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e) +35&#xD;&#xA;   System.Web.UI.Control.OnLoad(EventArgs e) +91&#xD;&#xA;   System.Web.UI.Control.LoadRecursive() +74&#xD;&#xA;   System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +2207&#xD;&#xA;&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &lt;br&gt;&#xD;&#xA;&#xD;&#xA;    &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&#xD;&#xA;">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:max-age=0&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.5&#xD;&#xA;HTTP_COOKIE:__utma=111872281.1435432464.1356626500.1362598054.1362600398.168; __utmz=111872281.1356626500.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); NotificationDefaultViewfsdlewis=Category; Exec_Admin=fsdlewis,1; ASP.NET_SessionId=yh5dxqz0maioztm3q2bh4lix; RevenueRadar=fsdlewis; __utmc=111872281; fsdlewis-uf-={&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:16,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;Customer with a minimum equity (+ or -)&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:362,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;DESC&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}; .aspxAUTH=167A2AEAF63E41C3C582842EACB09F7144133985AB6E339A3587C3D9D729B58956BD2E9A961CA0304A31AAF93EC8E4677192F944968958E770F070183422C5444779CE732E3FF165FD25FFE3ACB710B75F5554F940ECFDB575D04FBE6D153A7C229BD39340F1BBDAEE232F5F6CD27EB00C8075988F831203F48F774BB4C5658851676459007749EAEDC23951D08573E4F5AB52D26112151FD6041C22038E1585B364B3F489E462E046C5E7E4699896B40F8A64682639135CB80F4BC550987201F14F292A5ACDF6FE835DE52464E7C0E5A7F9E348A26214C5593F631083760A7688E9660A2C0EB536C769D18D5695E766B8BF61BCD2CAB71DA53D65229C03A3DAD311CCECBF8EA0B32FF8FC3175FD1B41B32E6A6AF045120E153E9E6BEE079A6970C372174595BFC904E8E1F7301A2608BE758B887AD057CC597B0E377E8F44BD864B3C6B16658D3B07F06A7D28AC7991A08B5C96BD5CB8279FC40DDAA39A4D13B25852FFA3F962D5C25A9470; fsdlewis-uf-appointment={&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:0,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;Appointment&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:0,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}; .ADUAUTH=1595DA52C7DD7C93779B3F96C6BD9636FE2EEF2728CCAA190B1877CA6CF8E7EC5477EBB000EAB8080A4FD4AB42CEDF46AD7073878B67F168ED825EB92C2F61295C26C32CA191A1D7CE4DE8F4A87AD68C5CF63A644536E9DB76515B5E4534597063530AB91EA5DFB12F826EF36025032966FD6B9EA19FDC1321D6031F9B8E9EDDA77AA859EEA79554F9C7F8049157CDEF259F655DA2C9F9B346409F90DF0566AA808D93CAB7465448F6439EF48C6B34274F44E9E12E7DA6FC497F51F23C9DA70872D569532723F482872FDB47C5BE409A; glimpsePolicy=On; glimpseId=FSCA\DLewis; glimpseOptions=%7B%22glimpsePolicy%22%3Anull%7D&#xD;&#xA;HTTP_HOST:localhost:57240&#xD;&#xA;HTTP_REFERER:http://localhost:57240/Default.aspx&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: max-age=0&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-US,en;q=0.5&#xD;&#xA;Cookie: __utma=111872281.1435432464.1356626500.1362598054.1362600398.168; __utmz=111872281.1356626500.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); NotificationDefaultViewfsdlewis=Category; Exec_Admin=fsdlewis,1; ASP.NET_SessionId=yh5dxqz0maioztm3q2bh4lix; RevenueRadar=fsdlewis; __utmc=111872281; fsdlewis-uf-={&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:16,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;Customer with a minimum equity (+ or -)&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:362,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;DESC&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}; .aspxAUTH=167A2AEAF63E41C3C582842EACB09F7144133985AB6E339A3587C3D9D729B58956BD2E9A961CA0304A31AAF93EC8E4677192F944968958E770F070183422C5444779CE732E3FF165FD25FFE3ACB710B75F5554F940ECFDB575D04FBE6D153A7C229BD39340F1BBDAEE232F5F6CD27EB00C8075988F831203F48F774BB4C5658851676459007749EAEDC23951D08573E4F5AB52D26112151FD6041C22038E1585B364B3F489E462E046C5E7E4699896B40F8A64682639135CB80F4BC550987201F14F292A5ACDF6FE835DE52464E7C0E5A7F9E348A26214C5593F631083760A7688E9660A2C0EB536C769D18D5695E766B8BF61BCD2CAB71DA53D65229C03A3DAD311CCECBF8EA0B32FF8FC3175FD1B41B32E6A6AF045120E153E9E6BEE079A6970C372174595BFC904E8E1F7301A2608BE758B887AD057CC597B0E377E8F44BD864B3C6B16658D3B07F06A7D28AC7991A08B5C96BD5CB8279FC40DDAA39A4D13B25852FFA3F962D5C25A9470; fsdlewis-uf-appointment={&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:0,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;Appointment&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:0,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}; .ADUAUTH=1595DA52C7DD7C93779B3F96C6BD9636FE2EEF2728CCAA190B1877CA6CF8E7EC5477EBB000EAB8080A4FD4AB42CEDF46AD7073878B67F168ED825EB92C2F61295C26C32CA191A1D7CE4DE8F4A87AD68C5CF63A644536E9DB76515B5E4534597063530AB91EA5DFB12F826EF36025032966FD6B9EA19FDC1321D6031F9B8E9EDDA77AA859EEA79554F9C7F8049157CDEF259F655DA2C9F9B346409F90DF0566AA808D93CAB7465448F6439EF48C6B34274F44E9E12E7DA6FC497F51F23C9DA70872D569532723F482872FDB47C5BE409A; glimpsePolicy=On; glimpseId=FSCA\DLewis; glimpseOptions=%7B%22glimpsePolicy%22%3Anull%7D&#xD;&#xA;Host: localhost:57240&#xD;&#xA;Referer: http://localhost:57240/Default.aspx&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LearnLog4Net\LearnToReadLogs\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="NTLM" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="FSCA\DLewis" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="FSCA\DLewis" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="FSCA\DLewis" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="" />
+    </item>
+    <item name="HTTPS">
+      <value string="" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/MessedUp.aspx" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LearnLog4Net\LearnToReadLogs\MessedUp.aspx" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/MessedUp.aspx" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="57240" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="" />
+    </item>
+    <item name="URL">
+      <value string="/MessedUp.aspx" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="max-age=0" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-US,en;q=0.5" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__utma=111872281.1435432464.1356626500.1362598054.1362600398.168; __utmz=111872281.1356626500.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); NotificationDefaultViewfsdlewis=Category; Exec_Admin=fsdlewis,1; ASP.NET_SessionId=yh5dxqz0maioztm3q2bh4lix; RevenueRadar=fsdlewis; __utmc=111872281; fsdlewis-uf-={&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:16,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;Customer with a minimum equity (+ or -)&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:362,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;DESC&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}; .aspxAUTH=167A2AEAF63E41C3C582842EACB09F7144133985AB6E339A3587C3D9D729B58956BD2E9A961CA0304A31AAF93EC8E4677192F944968958E770F070183422C5444779CE732E3FF165FD25FFE3ACB710B75F5554F940ECFDB575D04FBE6D153A7C229BD39340F1BBDAEE232F5F6CD27EB00C8075988F831203F48F774BB4C5658851676459007749EAEDC23951D08573E4F5AB52D26112151FD6041C22038E1585B364B3F489E462E046C5E7E4699896B40F8A64682639135CB80F4BC550987201F14F292A5ACDF6FE835DE52464E7C0E5A7F9E348A26214C5593F631083760A7688E9660A2C0EB536C769D18D5695E766B8BF61BCD2CAB71DA53D65229C03A3DAD311CCECBF8EA0B32FF8FC3175FD1B41B32E6A6AF045120E153E9E6BEE079A6970C372174595BFC904E8E1F7301A2608BE758B887AD057CC597B0E377E8F44BD864B3C6B16658D3B07F06A7D28AC7991A08B5C96BD5CB8279FC40DDAA39A4D13B25852FFA3F962D5C25A9470; fsdlewis-uf-appointment={&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:0,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;Appointment&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:0,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}; .ADUAUTH=1595DA52C7DD7C93779B3F96C6BD9636FE2EEF2728CCAA190B1877CA6CF8E7EC5477EBB000EAB8080A4FD4AB42CEDF46AD7073878B67F168ED825EB92C2F61295C26C32CA191A1D7CE4DE8F4A87AD68C5CF63A644536E9DB76515B5E4534597063530AB91EA5DFB12F826EF36025032966FD6B9EA19FDC1321D6031F9B8E9EDDA77AA859EEA79554F9C7F8049157CDEF259F655DA2C9F9B346409F90DF0566AA808D93CAB7465448F6439EF48C6B34274F44E9E12E7DA6FC497F51F23C9DA70872D569532723F482872FDB47C5BE409A; glimpsePolicy=On; glimpseId=FSCA\DLewis; glimpseOptions=%7B%22glimpsePolicy%22%3Anull%7D" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:57240" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:57240/Default.aspx" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="__utma">
+      <value string="111872281.1435432464.1356626500.1362598054.1362600398.168" />
+    </item>
+    <item name="__utmz">
+      <value string="111872281.1356626500.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)" />
+    </item>
+    <item name="NotificationDefaultViewfsdlewis">
+      <value string="Category" />
+    </item>
+    <item name="Exec_Admin">
+      <value string="fsdlewis,1" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="yh5dxqz0maioztm3q2bh4lix" />
+    </item>
+    <item name="RevenueRadar">
+      <value string="fsdlewis" />
+    </item>
+    <item name="__utmc">
+      <value string="111872281" />
+    </item>
+    <item name="fsdlewis-uf-">
+      <value string="{&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:16,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;Customer with a minimum equity (+ or -)&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:362,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;DESC&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}" />
+    </item>
+    <item name=".aspxAUTH">
+      <value string="167A2AEAF63E41C3C582842EACB09F7144133985AB6E339A3587C3D9D729B58956BD2E9A961CA0304A31AAF93EC8E4677192F944968958E770F070183422C5444779CE732E3FF165FD25FFE3ACB710B75F5554F940ECFDB575D04FBE6D153A7C229BD39340F1BBDAEE232F5F6CD27EB00C8075988F831203F48F774BB4C5658851676459007749EAEDC23951D08573E4F5AB52D26112151FD6041C22038E1585B364B3F489E462E046C5E7E4699896B40F8A64682639135CB80F4BC550987201F14F292A5ACDF6FE835DE52464E7C0E5A7F9E348A26214C5593F631083760A7688E9660A2C0EB536C769D18D5695E766B8BF61BCD2CAB71DA53D65229C03A3DAD311CCECBF8EA0B32FF8FC3175FD1B41B32E6A6AF045120E153E9E6BEE079A6970C372174595BFC904E8E1F7301A2608BE758B887AD057CC597B0E377E8F44BD864B3C6B16658D3B07F06A7D28AC7991A08B5C96BD5CB8279FC40DDAA39A4D13B25852FFA3F962D5C25A9470" />
+    </item>
+    <item name="fsdlewis-uf-appointment">
+      <value string="{&quot;AddressId&quot;:23,&quot;AppointmentStatus&quot;:&quot;&quot;,&quot;AppoitnmentAssignedTo&quot;:&quot;&quot;,&quot;CheckAll&quot;:&quot;None&quot;,&quot;CheckedItem&quot;:&quot;&quot;,&quot;CurrentPageIndex&quot;:0,&quot;CustomInsertEndDate&quot;:&quot;&quot;,&quot;CustomInsertStartDate&quot;:&quot;&quot;,&quot;CustomerName&quot;:&quot;&quot;,&quot;Distance&quot;:&quot;&quot;,&quot;EntityType&quot;:&quot;&quot;,&quot;InsertDateValue&quot;:&quot;&quot;,&quot;IsAdmin&quot;:true,&quot;LastSalesPerson&quot;:&quot;&quot;,&quot;LastServiceAdvisor&quot;:&quot;&quot;,&quot;ListId&quot;:0,&quot;MultiplePings&quot;:&quot;&quot;,&quot;NeverContactVia&quot;:&quot;&quot;,&quot;PageCount&quot;:0,&quot;PageSize&quot;:23,&quot;PingCategory&quot;:&quot;&quot;,&quot;PingExpirationValue&quot;:&quot;&quot;,&quot;QueryType&quot;:&quot;Appointment&quot;,&quot;ROAssignedTo&quot;:&quot;&quot;,&quot;ROStatus&quot;:&quot;&quot;,&quot;RRFilterId&quot;:0,&quot;RecordCount&quot;:0,&quot;SalesType&quot;:&quot;&quot;,&quot;SiteId&quot;:476,&quot;SortExp&quot;:&quot;dtInsertDate&quot;,&quot;SortOrder&quot;:&quot;&quot;,&quot;Status&quot;:&quot;New|In Progress|Qualified Lead&quot;,&quot;TradeAPRMF&quot;:&quot;&quot;,&quot;TradeEquity&quot;:&quot;&quot;,&quot;UserName&quot;:&quot;fsdlewis&quot;,&quot;Validity&quot;:&quot;&quot;,&quot;VehicleMake&quot;:&quot;&quot;,&quot;VehicleModel&quot;:&quot;&quot;,&quot;VehicleYear&quot;:&quot;&quot;}" />
+    </item>
+    <item name=".ADUAUTH">
+      <value string="1595DA52C7DD7C93779B3F96C6BD9636FE2EEF2728CCAA190B1877CA6CF8E7EC5477EBB000EAB8080A4FD4AB42CEDF46AD7073878B67F168ED825EB92C2F61295C26C32CA191A1D7CE4DE8F4A87AD68C5CF63A644536E9DB76515B5E4534597063530AB91EA5DFB12F826EF36025032966FD6B9EA19FDC1321D6031F9B8E9EDDA77AA859EEA79554F9C7F8049157CDEF259F655DA2C9F9B346409F90DF0566AA808D93CAB7465448F6439EF48C6B34274F44E9E12E7DA6FC497F51F23C9DA70872D569532723F482872FDB47C5BE409A" />
+    </item>
+    <item name="glimpsePolicy">
+      <value string="On" />
+    </item>
+    <item name="glimpseId">
+      <value string="FSCA\DLewis" />
+    </item>
+    <item name="glimpseOptions">
+      <value string="%7B%22glimpsePolicy%22%3Anull%7D" />
+    </item>
+  </cookies>
+</error>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LogPaths>
+  <Path name="Example Application" path="C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\ErrorLogs\" default="true" />
+</LogPaths>

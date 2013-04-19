@@ -1,0 +1,55 @@
+﻿@model LogManager.Models.HomeModel
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="row-fluid">
+            <div class="span3">
+                <a class="brand" href="#">Log-O-Matic</a>   
+            </div>
+            <div class="span6" style="text-align: center">
+                <input type="text" data-bind="event: { change: reloadData }, value : searchString, valueUpdate: 'keydown'"/> 
+                <button class="btn btn-inverse" data-bind="click : reloadData">Search</button>                
+            </div>
+            <div class="span3">
+                <label>Select Log </label>
+                @Html.DropDownList("currentLogFolder", Model.LogFolderChoices, new { data_bind = "value : currentLogFolder" })
+                <button class="btn btn-inverse" data-bind="click : reloadData">Re-Load Data</button>                
+            </div>
+        </div>
+    </div>
+</div>    
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Error Type</th>
+            <th>Error Message</th>
+            <th>Last Report</th>
+            <th>Error Count</th>
+        </tr>
+    </thead>
+    <tbody data-bind="foreach: items">
+        <tr class="logRow" data-bind="click: $root.viewLogDetail">
+            <td data-bind="text:$data.ErrorType"></td>
+            <td data-bind="text:$data.ErrorMessage"></td>
+            <td data-bind="text:$data.LastReport"></td>
+            <td data-bind="text:$data.ErrorCount"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">
+                <div class="pull-right">
+                    <div class="pagination">
+                        <ul>
+                            <li data-bind="click: previousPage"><a>&laquo;</a></li>
+                            <li class="active"><a data-bind="html : currentPage"></a></li>
+                            <li data-bind="click : nextPage"><a>&raquo;</a></li>
+                        </ul>
+                    </div>
+                    <div class="label label-info">Page Count : <span data-bind="html : pageCount" /></div>                    
+                </div>
+            </td>
+        </tr>
+    </tfoot>
+</table>
