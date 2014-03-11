@@ -1,9 +1,0 @@
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\bin\LogManager.ExampleMonitoredApplication.dll
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\bin\LogManager.ExampleMonitoredApplication.pdb
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\obj\Debug\LogManager.ExampleMonitoredApplication.dll
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\obj\Debug\LogManager.ExampleMonitoredApplication.pdb
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\bin\Elmah.dll
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\bin\elmahappender_log4net.dll
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\bin\log4net.dll
-C:\Users\DLewis\Documents\Visual Studio 2010\Projects\LogManager\LogManager.ExampleMonitoredApplication\bin\log4net.xml
