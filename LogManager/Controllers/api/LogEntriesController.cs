@@ -42,15 +42,18 @@ namespace LogManager.Controllers.api
                 myLogReader = new LogReader();
             }
 
-            //Load Log Folder (if not already loaded)
-            if (myLogReader.LogPathsLoaded.Contains(currentLogFolder) != true)
+            var logFolders = ConfigurationReader.ReadLogFolders();
+            var folderEntry = logFolders.FirstOrDefault(x => x.Name == currentLogFolder);
+
+            if (folderEntry == null)
             {
-                var logFolders = ConfigurationReader.ReadLogFolders();
-                var folderEntry = logFolders.First(x => x.Name == currentLogFolder);
-                if (folderEntry != null)
-                {
-                    myLogReader.LoadLogFolder(folderEntry.Name, folderEntry.Path);
-                }
+                return "";
+            }
+
+            //Load Log Folder (if not already loaded)
+            if (myLogReader.LogPathsLoaded.Contains(folderEntry.Path) != true)
+            {
+                myLogReader.LoadLogFolder(folderEntry.Name, folderEntry.Path);
             }
 
             var results = myLogReader.GroupedLogEntries.ToList();
